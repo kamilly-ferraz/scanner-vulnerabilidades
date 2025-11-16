@@ -42,6 +42,7 @@
 
 A organização do projeto segue a seguinte estrutura:
 
+```
 vulnerability_scanner/
  ├─ scanner/               # Módulos responsáveis por cada tipo de teste
  │    ├─ __init__.py
