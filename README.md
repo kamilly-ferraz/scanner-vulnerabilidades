@@ -1,4 +1,4 @@
-# scanner-vulnerabilidades
+# Scanner de Vulnerabilidades
 # VulnScanner
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white)
@@ -36,6 +36,22 @@
 ## Exemplo de Relatório (report.txt)
 
 <img width="619" height="368" alt="Captura de Tela 2025-11-15 às 23 31 47" src="https://github.com/user-attachments/assets/1e8be127-fb38-42df-8264-34b955a74448" />
+
+
+## 📁 Estrutura do Projeto
+
+A organização do projeto segue a seguinte estrutura:
+
+vulnerability_scanner/
+ ├─ scanner/               # Módulos responsáveis por cada tipo de teste
+ │    ├─ __init__.py
+ │    ├─ forms.py          # Detecção de formulários
+ │    ├─ xss.py            # Testes básicos de XSS
+ │    ├─ sqli.py           # Testes básicos de SQL Injection
+ │    ├─ headers.py        # Verificação de Security Headers
+ │    ├─ sqlmap.py         # Simulação de execução do sqlmap
+ ├─ scanner.py             # Script principal que coordena os testes
+ └─ report.txt (gerado automaticamente)
 
 
 ## Como Instalar (em 30 segundos)
