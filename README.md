@@ -33,7 +33,8 @@
 
 ---
 
-Exemplo de Relatório (report.txt)
+## Exemplo de Relatório (report.txt)
+
 <img width="619" height="368" alt="Captura de Tela 2025-11-15 às 23 31 47" src="https://github.com/user-attachments/assets/1e8be127-fb38-42df-8264-34b955a74448" />
 
 
