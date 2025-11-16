@@ -52,8 +52,8 @@ vulnerability_scanner/
  │    ├─ headers.py        # Verificação de Security Headers
  │    ├─ sqlmap.py         # Simulação de execução do sqlmap
  ├─ scanner.py             # Script principal que coordena os testes
- └─ report.txt (gerado automaticamente)
-
+ └─ report.txt (gerado automaticamente) 
+```
 
 ## Como Instalar (em 30 segundos)
 
